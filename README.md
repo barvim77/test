@@ -4,6 +4,9 @@ This test project is ansible role which will install openvpn client on Ubuntu 16
 
 Created during test ececution for [**Baikalteam company**](http://www.baikalteam.com)
 
-# Requiements
+# Features
 ---
+
+# Role Variables
+==================
 
