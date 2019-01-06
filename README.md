@@ -8,6 +8,11 @@ Created during test ececution for [**Baikalteam company**](http://www.baikalteam
 
 
 # Role Variables
+| Name                          | Default                                                       | Description                                                                                            |
+|:------------------------------|:--------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
+| openvpn_version               | 2.3.11                                                        | Version of OpenVPN to install                                                                          |
 
+# Author 
+(C) Rinat Ametov
 
 
