@@ -5,10 +5,12 @@ This test project is ansible role which will install openvpn client on Ubuntu 16
 Created during test ececution for [**Baikalteam company**](http://www.baikalteam.com)
 
 # Features
+It should d ochanges only on Ubuntu 16.04. (xenial ) by terms of test task. All tasks implemented in single role.  Role behavior one of two ways:
+1. Initial service configuration
+2. Checkout of configuration and does correct configuration if it needs
 
-
-# Role Variables
-| Name                          | Default                                                       | Description                                                                                            |
+# Variables
+| **Name**                          | **Default**                                                       | **Description**                                                                                            |
 |:------------------------------|:--------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
 | openvpn_version               | 2.3.11                                                        | Version of OpenVPN to install                                                                          |
 
