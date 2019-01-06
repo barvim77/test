@@ -9,8 +9,8 @@ Created during test ececution for
 # Features
 It should do changes only on Ubuntu 16.04. (xenial ) by terms of test task. 
 All tasks implemented in single role.  Role's behavior assumes one of two ways:
-**1.** Initial service configuration
-**2.** Checkout of configuration and does correct configuration if it needs
+1. Initial service configuration
+2. Checkout of configuration and does correct configuration if it needs
 
 # Variables
 | **Name**   | **Default**     | **Description**|
