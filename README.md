@@ -27,7 +27,8 @@ All tasks implemented in single role.  Role's behavior assumes one of two ways:
 
 
 # Tags
-Use --tags [Tagname] to enable/disable parts of tasks. On default all tasks are enabled, but if you used at once single tag, then unicluded tagged tasks will be disabled.
+Use --tags [Tagname] to enable/disable parts of tasks. On default all tasks are enabled, 
+but if you used at least one tag, then unicluded tagged tasks will be disabled.
 
 | **Tagname**   | **Description**|
 |:---------|:------------|
