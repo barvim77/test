@@ -17,8 +17,20 @@ All tasks implemented in single role.  Role's behavior assumes one of two ways:
 |:---------|:------------|:------------|
 | openvpn_version  | 2.3.11 | Version of OpenVPN to install|
 
+# Tags
+Use --tags [Tagname] to enable/disable parts of tasks. On default all tasks are enabled
+
+| **Tagname**   | **Description**|
+|:---------|:------------|
+| **update**  | Update all apt repository|
+|**install_openvpn**|Install openvpn client|
+
+
+
 # Running test task
-Use **test.sh** shell script or run **"sudo ansible-playbook ./test.yml"** from test directory
+Use **test.sh** shell script or run **"sudo ansible-playbook ./test.yml"** from test 
+directory
+
 # Author
 (C) Rinat Ametov
 
