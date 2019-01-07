@@ -18,12 +18,12 @@ All tasks implemented in single role.  Role's behavior assumes one of two ways:
 | openvpn_version  | 2.3.11 | Version of OpenVPN to install|
 
 # Tags
-Use --tags [Tagname] to enable/disable parts of tasks. On default all tasks are enabled
+Use --tags [Tagname] to enable/disable parts of tasks. On default all tasks are enabled, but if you used at once single tag, then unicluded tagged tasks will be disabled.
 
 | **Tagname**   | **Description**|
 |:---------|:------------|
-| **update**  | Update all apt repository|
-|**install_openvpn**|Install openvpn client|
+| **update**  | Enable updating of all apt repository|
+|**install_openvpn**|Enable openvpn client installation|
 
 
 
