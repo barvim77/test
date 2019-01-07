@@ -15,7 +15,16 @@ All tasks implemented in single role.  Role's behavior assumes one of two ways:
 # Variables
 | **Name**   | **Default**     | **Description**|
 |:---------|:------------|:------------|
-| openvpn_version  | 2.3.11 | Version of OpenVPN to install|
+|openvpn_ca_certificate|<example config hardcoded>||
+|openvpn_certificate|<example config hardcoded>|OpenVPN certificate|
+|openvpn_distribution_release|xenial|Name of distribution release allowed|
+|openvpn_distribution_version|16.04|Version of distribution release allowed|
+|openvpn_private_key|<example config hardcoded>|OpenVPN private key|
+|openvpn_remote_host|8.8.8.8|OpenVPN client remote host|
+|openvpn_remote_port|2195|OpenVPN client remote port|
+|openvpn_remote_prot|udp|OpenVPN client protocol|
+|openvpn_static_key|<example config hardcoded>|OpenVPN secret static key|
+
 
 # Tags
 Use --tags [Tagname] to enable/disable parts of tasks. On default all tasks are enabled, but if you used at once single tag, then unicluded tagged tasks will be disabled.
